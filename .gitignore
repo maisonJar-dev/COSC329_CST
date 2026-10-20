@@ -1,1 +1,6 @@
 .venv/
+.hook.log
+logs/
+
+# Python Artificats
+.pytest_cache
