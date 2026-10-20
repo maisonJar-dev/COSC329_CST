@@ -1,0 +1,10 @@
+### Architecture 
+src/
+  |- helpers/           # Computing document similarity, applying clustering, other helpful >
+  |- preprocessing/     # Text sanitization
+  |- vectorization/     # TFIDF, TF, IDF
+  |- tests/             # Python tests
+  |- data/              # Text data
+  |- outputs/           # Useful Outputs
+
+### Interpretation

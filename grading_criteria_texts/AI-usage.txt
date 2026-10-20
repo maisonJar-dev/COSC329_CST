@@ -1,0 +1,9 @@
+AI Model Used: Claude Opus 5.5 and lower models
+
+Main use cases:
+- Building tests and general test scaffolding to accelerate developement. 
+- AGENTS.md, I want to learn agentic workflows as I am experimenting for my EDT 
+  and they are becoming increasingly important in the workplace. Check [AGENTS.md](AGENTS.md) 
+  - Refer to AGENTS.md and claude/ for further inquiries. 
+- Checking my thought process, gathering resources, learning C++, . etc.  
+
