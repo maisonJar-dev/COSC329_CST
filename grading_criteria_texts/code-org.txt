@@ -7,4 +7,3 @@ src/
   |- data/              # Text data
   |- outputs/           # Useful Outputs
 
-### Interpretation

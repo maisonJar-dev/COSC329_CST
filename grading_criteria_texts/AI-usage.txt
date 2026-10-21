@@ -7,3 +7,34 @@ Main use cases:
   - Refer to AGENTS.md and claude/ for further inquiries. 
 - Checking my thought process, gathering resources, learning C++, . etc.  
 
+## File Specifics
+
+### `src/vectorization/similarity.py`
+I first arrived at this as a solution:
+```
+def cosine(a: np.ndarray, b: np.ndarray) -> float:
+    return a @ b / (LA.norm(a) * LA.norm(b))
+
+def cosine_matrix(X: np.ndarray) -> np.ndarray:
+    n = len(X)
+    S = np.zeros((n, n))
+    for i in range(n):
+        for j in range(n):
+            S[i, j] = cosine(X[i], X[j])  
+    return S
+```
+However, after further analysis and validation from claude I 
+refactored it to:
+
+```
+def cosine_matrix(X: np.ndarray) -> np.ndarray:
+    norms = LA.norm(X, axis=1,keepdims=True)
+    return X @ X.T / (norms @ norms.T)
+```
+This works due to the transposes doing the heavy lifting and 
+getting the same result as the nested for loop would. Likewise 
+`numpy.linalg.norm` aids in normalization which after looking at 
+resources mentioned bellow proves to use the same normilization 
+method used in class. By using `axis=1` we can tell it to only 
+calculate the magnitude of all the documents, or in the case of X,
+the rows.

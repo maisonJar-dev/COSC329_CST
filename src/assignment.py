@@ -1,5 +1,5 @@
 from pathlib import Path
-from preprocessing import preprocess
+from preprocessing.preprocess import preprocess
 
 
 class AssignmentA2:
@@ -8,7 +8,7 @@ class AssignmentA2:
         _stop_words = set(stop_words.read_text(encoding=_encoding).splitlines())
         for file in alldocs.rglob("*.txt"):
             if file.is_file():
-                self.words = preprocess.preprocess(
+                self.words = preprocess(
                     text=file.read_text(encoding=_encoding),
                     stop_words=_stop_words
                 )
