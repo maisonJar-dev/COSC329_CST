@@ -1,1 +1,5 @@
 pytest>=9.1
+numpy
+nltk
+scipy>=1.14
+matplotlib>=3.11

@@ -2,5 +2,6 @@
 .hook.log
 logs/
 
-# Python Artificats
-.pytest_cache
+# Python Artifacts
+.pytest_cache/
+__pycache__/
