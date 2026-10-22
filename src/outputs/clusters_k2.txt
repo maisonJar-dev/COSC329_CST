@@ -1,0 +1,2 @@
+cluster 1 (27 files): k1.txt, k10.txt, k11.txt, k12.txt, k13.txt, k14.txt, k3.txt, k4.txt, k5.txt, k6.txt, k7.txt, k8.txt, k9.txt, t1.txt, t10.txt, t11.txt, t12.txt, t13.txt, t14.txt, t2.txt, t3.txt, t4.txt, t5.txt, t6.txt, t7.txt, t8.txt, t9.txt
+cluster 2 (1 files): k2.txt

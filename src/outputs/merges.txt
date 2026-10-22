@@ -1,0 +1,27 @@
+merge 1: ['t12.txt'] + ['t6.txt'] at similarity 0.3512
+merge 2: ['k14.txt'] + ['k6.txt'] at similarity 0.2251
+merge 3: ['k8.txt'] + ['t14.txt'] at similarity 0.1975
+merge 4: ['t8.txt'] + ['t12.txt', 't6.txt'] at similarity 0.1936
+merge 5: ['k10.txt'] + ['k13.txt'] at similarity 0.1907
+merge 6: ['k14.txt', 'k6.txt'] + ['k8.txt', 't14.txt'] at similarity 0.1838
+merge 7: ['k7.txt'] + ['k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.1759
+merge 8: ['k12.txt'] + ['k3.txt'] at similarity 0.1756
+merge 9: ['k10.txt', 'k13.txt'] + ['k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.1724
+merge 10: ['t10.txt'] + ['t2.txt'] at similarity 0.1720
+merge 11: ['k9.txt'] + ['k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.1323
+merge 12: ['k11.txt'] + ['k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.1318
+merge 13: ['t3.txt'] + ['t10.txt', 't2.txt'] at similarity 0.1085
+merge 14: ['k4.txt'] + ['k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.1068
+merge 15: ['t1.txt'] + ['t8.txt', 't12.txt', 't6.txt'] at similarity 0.1036
+merge 16: ['t13.txt'] + ['t3.txt', 't10.txt', 't2.txt'] at similarity 0.0986
+merge 17: ['k1.txt'] + ['k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.0984
+merge 18: ['k5.txt'] + ['k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] at similarity 0.0934
+merge 19: ['t7.txt'] + ['t1.txt', 't8.txt', 't12.txt', 't6.txt'] at similarity 0.0915
+merge 20: ['t5.txt'] + ['t13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0822
+merge 21: ['t7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt'] + ['t5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0809
+merge 22: ['k5.txt', 'k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt'] + ['t7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt', 't5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0804
+merge 23: ['t9.txt'] + ['k5.txt', 'k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt', 't7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt', 't5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0734
+merge 24: ['t11.txt'] + ['t9.txt', 'k5.txt', 'k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt', 't7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt', 't5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0686
+merge 25: ['k12.txt', 'k3.txt'] + ['t11.txt', 't9.txt', 'k5.txt', 'k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt', 't7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt', 't5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0612
+merge 26: ['t4.txt'] + ['k12.txt', 'k3.txt', 't11.txt', 't9.txt', 'k5.txt', 'k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt', 't7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt', 't5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0538
+merge 27: ['k2.txt'] + ['t4.txt', 'k12.txt', 'k3.txt', 't11.txt', 't9.txt', 'k5.txt', 'k1.txt', 'k4.txt', 'k11.txt', 'k9.txt', 'k10.txt', 'k13.txt', 'k7.txt', 'k14.txt', 'k6.txt', 'k8.txt', 't14.txt', 't7.txt', 't1.txt', 't8.txt', 't12.txt', 't6.txt', 't5.txt', 't13.txt', 't3.txt', 't10.txt', 't2.txt'] at similarity 0.0363

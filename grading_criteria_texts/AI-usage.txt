@@ -2,9 +2,6 @@ AI Model Used: Claude Opus 5.5 and lower models
 
 Main use cases:
 - Building tests and general test scaffolding to accelerate developement. 
-- AGENTS.md, I want to learn agentic workflows as I am experimenting for my EDT 
-  and they are becoming increasingly important in the workplace. Check [AGENTS.md](AGENTS.md) 
-  - Refer to AGENTS.md and claude/ for further inquiries. 
 - Checking my thought process, gathering resources, learning C++, . etc.  
 
 ## File Specifics
@@ -38,3 +35,9 @@ resources mentioned bellow proves to use the same normilization
 method used in class. By using `axis=1` we can tell it to only 
 calculate the magnitude of all the documents, or in the case of X,
 the rows.
+
+## General Specifics 
+Claude was used for assistance creating tests after I was done with preprocessing on my own due to time constraints. 
+Furthermore, I used it to guide me through steps and break down problems with me. I found myself having to reverse "engineer"
+a few concepts while utilizing libraries as I am attempting to learn more libraries for this course. In general it was used as 
+a tutor and to help grasp concepts deeper.

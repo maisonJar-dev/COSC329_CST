@@ -4,12 +4,9 @@ from preprocessing import preprocess
 stop_words = {"i", "me", "my", "myself"}
 
 expected = [
-    "so",
-    "on",
     "that",
     "trip",
     "went",
-    "on",
     "thi",
     "cool",
     "adventur",
